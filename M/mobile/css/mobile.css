@@ -1,0 +1,254 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'liberatorregular';
+    src: url('fonts/liberator-webfont.eot');
+    src: url('fonts/liberator-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/liberator-webfont.woff') format('woff'),
+         url('fonts/liberator-webfont.ttf') format('truetype'),
+         url('fonts/liberator-webfont.svg#liberatorregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    margin: 0 auto;
+}
+h1 {
+    font-family: 'liberatorregular';
+    font-size: 3em;
+    font-weight: normal;
+}
+h2 {
+    font-weight: normal;
+}
+p {
+    font-family: helvetica;
+    font-size: 0.9em;
+    line-height: 23px;
+    text-align: justify;
+}
+span {
+    font-family: 'liberatorregular';
+}
+a {
+text-decoration:none;	
+}
+#home {
+    background: url("../mimgs/hombg.png") repeat scroll center top transparent;
+    height: 100%;
+    padding: 100px;
+    text-align: center;
+}
+.button-row {
+    margin-top: 7%;
+    text-align: center;
+}
+.button-row > img {
+    width: 75%;
+}
+#about {
+    background: none repeat scroll 0 0 #000000;
+    color: #FFFFFF;
+    height: auto;
+    padding: 50px;
+    text-align: center;
+}
+.sixteen{
+    margin: 0 auto;
+    width: 90%;
+}
+
+#about2 {
+    background: url("../mimgs/pattern.png"), url("../mimgs/parallax/teaser1b.jpg");
+    color: #FFFFFF;
+    height: auto;
+    padding: 50px;
+    text-align: center;
+	background-position: center top;
+}
+.prlx-quote {
+    font-family: 'liberatorregular';
+    font-size: 29px;
+    line-height: 39px;
+    margin: 0 auto;
+    text-align: center;
+    width: 90%;
+}
+
+#portfolio {
+    background: none repeat scroll 0 0 #FFFFFF;
+    height: 100%;
+    padding: 100px 50px 50px;
+    text-align: center;
+}
+.project-description {
+    font-size: 11px;
+    height: 140px;
+    line-height: 16px;
+    text-align: left;
+}
+.project-title a {
+    color: #000000;
+    font-family: 'liberatorregular';
+}
+.viewp > a {
+    color: #888888;
+    font-family: liberatorregular;
+}
+.scaleimg {
+    width: 100%;
+}
+#items {
+    border: 0 solid #000000;
+    height: 566px;
+    margin: 0 auto;
+    width: 100%;
+}
+.columns {
+    background: none repeat scroll 0 0 transparent;
+    float: left;
+    margin-bottom: 16px;
+    width: 32%;
+	text-align:center !important;
+	border-right: 4px solid #FFFFFF;
+}
+.project-title {
+	text-align:center !important;
+}
+
+.row1 .columns:last-child {
+    margin-right: 0 !important;
+}
+#instagram {
+    background: url("../mimgs/pattern.png"), url("../mimgs/parallax/teaser2.jpg");
+	background-position: center top;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+	padding-bottom: 15px;
+    padding-top: 15px;
+	color: #FFFFFF !important;
+}
+iframe {
+    margin: 0 auto;
+}
+
+#contact {
+    background: none repeat scroll 0 0 #000000;
+    color: #FFFFFF !important;
+    height: 350px;
+    padding: 50px;
+    text-align: center;
+	font-family: 'liberatorregular';
+    font-weight: normal;
+}
+.copyright {
+    background: none repeat scroll 0 0 #000000;
+    bottom: 0;
+    color: #FFFFFF;
+    font-size: 12px;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+	border-top: 1px solid #FFFFFF;
+}
+.copyright > p {
+    text-align: center;
+}
+.copyright a{
+ color: #eee;	
+}
+.contact-social-icons img {
+    margin-right: 20px;
+}
+.contact-social-icons img:last-child {
+    margin-right: 0px;
+}
+#contact a {
+    color: #FFFFFF;
+    font-family: 'liberatorregular';
+    font-weight: normal;
+}
+#menuBar {
+    background: none repeat scroll 0 0 black;
+    height: 47px;
+    padding-bottom: 11px;
+    position: fixed;
+    top: 0 !important;
+    width: 100%;
+}
+ul {
+    list-style: none outside none;
+}
+li {
+    float: left;
+    margin-right: 0px;
+}
+li:last-child {
+    float: left;
+    margin-right: 0px;
+}
+.menuLink.smoothScroll {
+    color: #FFFFFF;
+    font-family: 'liberatorregular';
+    font-size: 32px;
+    padding: 10px 18px;
+    text-decoration: none;
+}
+wg {
+    margin: 0 auto;
+    width: 260px;
+}
+
+.menuOption1 {
+    background: none repeat scroll 0 0 #000000;
+    height: 50px;
+    margin-top: ;
+    padding-top: 15px;
+	float: left;
+    width: auto;
+}
+.menuOption2 {
+    background: none repeat scroll 0 0 #000000;
+    height: 60px;
+    margin-top: ;
+    padding-top: 15px;
+	float: left;
+    width: auto;
+}
+.menuOption5 {
+    background: none repeat scroll 0 0 #000000;
+    height: 70px;
+    margin-top: ;
+    padding-top: 15px;
+	float: left;
+    width: auto;
+}
+.menuOption9 {
+    background: none repeat scroll 0 0 #000000;
+    height: 60px;
+    margin-top: ;
+    padding-top: 15px;
+	float: left;
+    width: auto;
+}
+
+.menuOption10 {
+    background: none repeat scroll 0 0 #000000;
+    height: 50px;
+    margin-top: ;
+    padding-top: 15px;
+	float: left;
+    width: auto;
+}
+.mnav {
+    float: left;
+    margin-bottom: 0 !important;
+    margin-left: 6%;
+    margin-right: auto !important;
+    margin-top: 0 !important;
+}

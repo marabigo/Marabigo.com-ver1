@@ -1,0 +1,11 @@
+User-Agent: *
+Disallow: /cgi-bin/
+Disallow: /images/
+Disallow: /index.html
+Disallow: /coffee/
+Disallow: /css/
+Disallow: /img/
+Disallow: /js/
+Disallow: /old/
+Disallow: /test/
+Disallow: jeanclaudebillmaierc.ipage.com/marabigo/

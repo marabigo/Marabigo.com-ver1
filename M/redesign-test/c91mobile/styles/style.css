@@ -1,0 +1,707 @@
+
+body, p, div, h1, h2, h3, h4, h5, h6, table, tbody, tr, td, span, blockquote, a, abbr, address, cite, code, img, ul, ol, li, dl, dd, dt, form, label, fieldset, caption, input, textarea, button {
+    border: 0 none;
+    color: #000000;
+    font-family: Arial,Helvetica,Sans-Serif;
+    line-height: 1.5em;
+    list-style: none outside none;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+    text-decoration: none;
+    vertical-align: baseline;
+}
+#horizontal-ad {
+    display: block;
+}
+#vertical-ad {
+    display: none;
+}
+#bsads {
+    margin-top: 20px;
+    padding-left: 10px;
+}
+@font-face {
+    font-family: "OstrichSansCondensedLight";
+    font-style: normal;
+    font-weight: normal;
+    src: url("Fonts/ostrich-light-webfont.eot?#iefix") format("embedded-opentype"), url("Fonts/ostrich-light-webfont.woff") format("woff"), url("Fonts/ostrich-light-webfont.ttf") format("truetype"), url("Fonts/ostrich-light-webfont.svg#OstrichSansCondensedLight") format("svg");
+}
+@font-face {
+    font-family: "OstrichSansMedium";
+    font-style: normal;
+    font-weight: normal;
+    src: url("Fonts/ostrich-regular-webfont.eot?#iefix") format("embedded-opentype"), url("Fonts/ostrich-regular-webfont.woff") format("woff"), url("Fonts/ostrich-regular-webfont.ttf") format("truetype"), url("Fonts/ostrich-regular-webfont.svg#OstrichSansMedium") format("svg");
+}
+@font-face {
+    font-family: "OstrichSansBold";
+    font-style: normal;
+    font-weight: normal;
+    src: url("Fonts/ostrich-bold-webfont.eot?#iefix") format("embedded-opentype"), url("Fonts/ostrich-bold-webfont.woff") format("woff"), url("Fonts/ostrich-bold-webfont.ttf") format("truetype"), url("Fonts/ostrich-bold-webfont.svg#OstrichSansBold") format("svg");
+}
+@font-face {
+    font-family: "OstrichSansBlack";
+    font-style: normal;
+    font-weight: normal;
+    src: url("Fonts/ostrich-black-webfont.eot?#iefix") format("embedded-opentype"), url("Fonts/ostrich-black-webfont.woff") format("woff"), url("Fonts/ostrich-black-webfont.ttf") format("truetype"), url("Fonts/ostrich-black-webfont.svg#OstrichSansBlack") format("svg");
+}
+@font-face {
+    font-family: "OstrichSansRoundedMedium";
+    font-style: normal;
+    font-weight: normal;
+    src: url("Fonts/ostrich-rounded-webfont.eot?#iefix") format("embedded-opentype"), url("Fonts/ostrich-rounded-webfont.woff") format("woff"), url("Fonts/ostrich-rounded-webfont.ttf") format("truetype"), url("Fonts/ostrich-rounded-webfont.svg#OstrichSansRoundedMedium") format("svg");
+}
+@font-face {
+    font-family: "OstrichSansDashedMedium";
+    font-style: normal;
+    font-weight: normal;
+    src: url("Fonts/ostrich-dashed-webfont.eot?#iefix") format("embedded-opentype"), url("Fonts/ostrich-dashed-webfont.woff") format("woff"), url("Fonts/ostrich-dashed-webfont.ttf") format("truetype"), url("Fonts/ostrich-dashed-webfont.svg#OstrichSansDashedMedium") format("svg");
+}
+@font-face {
+    font-family: 'maridavidregular';
+    src: url('Fonts/maridavid-webfont.eot');
+    src: url('Fonts/maridavid-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Fonts/maridavid-webfont.woff') format('woff'),
+         url('Fonts/maridavid-webfont.ttf') format('truetype'),
+         url('Fonts/maridavid-webfont.svg#maridavidregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'maridavid_boldmaridavid_bold';
+    src: url('Fonts/maridavid_bold-webfont.eot');
+    src: url('Fonts/maridavid_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Fonts/maridavid_bold-webfont.woff') format('woff'),
+         url('Fonts/maridavid_bold-webfont.ttf') format('truetype'),
+         url('Fonts/maridavid_bold-webfont.svg#maridavid_boldmaridavid_bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'maridavid_extraboldbold';
+    src: url('Fonts/maridavid_extrabold-webfont.eot');
+    src: url('Fonts/maridavid_extrabold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Fonts/maridavid_extrabold-webfont.woff') format('woff'),
+         url('Fonts/maridavid_extrabold-webfont.ttf') format('truetype'),
+         url('Fonts/maridavid_extrabold-webfont.svg#maridavid_extraboldbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pacificoregular';
+    src: url('Fonts/pacifico-webfont.eot');
+    src: url('Fonts/pacifico-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Fonts/pacifico-webfont.woff') format('woff'),
+         url('Fonts/pacifico-webfont.ttf') format('truetype'),
+         url('Fonts/pacifico-webfont.svg#pacificoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'claire_handbold';
+    src: url('Fonts/clairehandbold-webfont.eot');
+    src: url('Fonts/clairehandbold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Fonts/clairehandbold-webfont.woff') format('woff'),
+         url('Fonts/clairehandbold-webfont.ttf') format('truetype'),
+         url('Fonts/clairehandbold-webfont.svg#claire_handbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'claire_handbold';
+    src: url('Fonts/clairehandbold-webfont.eot');
+    src: url('Fonts/clairehandbold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Fonts/clairehandbold-webfont.woff') format('woff'),
+         url('Fonts/clairehandbold-webfont.ttf') format('truetype'),
+         url('Fonts/clairehandbold-webfont.svg#claire_handbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'claire_handlight';
+    src: url('Fonts/clairehandlight-webfont.eot');
+    src: url('Fonts/clairehandlight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Fonts/clairehandlight-webfont.woff') format('woff'),
+         url('Fonts/clairehandlight-webfont.ttf') format('truetype'),
+         url('Fonts/clairehandlight-webfont.svg#claire_handlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background: url("../images/back.png") repeat scroll 0 0 transparent;
+    font-size: 14px;
+}
+div#wrap {
+    margin: 0 auto !important;
+    position: relative;
+    width: 980px;
+}
+div#sidebar {
+    background: url("../images/backpaper.png") repeat scroll 0 0 transparent;
+    border-right: 1px solid #2E2F2F;
+    float: left;
+    height: 100%;
+    position: fixed;
+    width: 220px;
+}
+a#logo {
+    border-bottom: 0px solid #353535;
+    display: block;
+    opacity: 1;
+    padding: 35px 0 9px;
+    position: relative;
+    text-align: center;
+    transition: all 300ms ease 0s;
+    width: 100%;
+    z-index: 999;
+}
+ul#navigation {
+    margin-right: -5px;
+    margin-top: 25px;
+    position: relative;
+    width: 220px;
+    z-index: 999;
+}
+ul#navigation li {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    float: left;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 33%;
+}
+ul#navigation li a:link, ul#navigation li a:visited {
+    display: block;
+    font-weight: normal;
+    letter-spacing: 1px !important;
+    margin-bottom: 1px;
+    padding-bottom: 5px;
+    padding-left: 10px !important;
+    padding-right: 10px;
+    padding-top: 5px;
+    text-align: left;
+    text-decoration: none;
+    transition: all 200ms ease 0s;
+    width: auto; 
+    color: #CDCBCB;
+    font-family: "Myriad Pro","Helvetica Neue","Helvetica","Sans";
+    font-size: 13px;
+    text-transform: uppercase;
+}
+ul#navigation li a:hover, ul#navigation li a.active {
+    background: none repeat scroll 0 0 #1B1B1B;
+    color: #FFFFFF;
+}
+div#container {
+    background: none repeat scroll 0 0 #FBFBFB;
+    border-top: 4px double #333333;
+    color: #000000 !important;
+    float: right;
+    left: -5px;
+    padding-right: 25px;
+    padding-top: 0;
+    position: relative;
+    width: 730px;
+}
+div.page {
+    margin-bottom: 0;
+    padding-top: 20px;
+}
+div.page_content {
+    padding: 25px 0 40px 25px;
+}
+div#container h3.page_title {
+    border-bottom: 1px solid #DDDDDD;
+    color: #000000;
+    font-family: 'maridavidregular';
+    font-size: 35px;
+    font-weight: normal;
+    letter-spacing: 4px;
+    line-height: 2;
+    margin-left: 25px;
+    padding: 5px 0 10px;
+    text-align: center;
+}
+div#works {
+    margin-top: 10px;
+    overflow: visible !important;
+    width: 725px;
+}
+div#works img {
+    background: none repeat scroll 0 0 #FFFFFF;
+    cursor: pointer;
+    float: left;
+    margin-bottom: 18px;
+    margin-right: 26px;
+    min-height: 150px;
+    position: relative;
+    transition: all 500ms ease 0s;
+    width: 28%;
+}
+div#works img:hover {
+    opacity: 0.5 !important;
+    top: -10px !important;
+}
+ul#works_filter {
+    clear: both;
+    float: left;
+    margin-bottom: 5px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 40px !important;
+}
+ul#works_filter li {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    float: left;
+    padding: 0;
+}
+ul#works_filter li a:link, ul#works_filter li a:visited {
+    color: #FFFFFF;
+    display: block;
+    font-size: 12px;
+    margin-right: 1px;
+    padding: 2px 10px;
+    text-decoration: none;
+}
+ul#works_filter li a:hover, ul#works_filter li a.selected {
+    background: none repeat scroll 0 0 #0D4667;
+    border-radius: 0.2em 0.2em 0.2em 0.2em;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.social_icons {
+    background: none repeat scroll 0 0 #0D4667;
+    border-radius: 2em 2em 2em 2em;
+    height: 45px;
+    line-height: 45px;
+    margin: 20px auto 0;
+    width: 142px;
+}
+.social_icons li {
+    display: inline;
+    margin: 0;
+    padding: 0 !important;
+}
+.social_icons li img {
+    border: 0 none !important;
+}
+#contact_form input {
+    background: none repeat scroll 0 0 #195F88;
+}
+fieldset#contact_form {
+    float: left;
+    width: 100%;
+}
+fieldset#contact_form textarea {
+    background: none repeat scroll 0 0 #195F88;
+    height: 150px;
+    width: 97.5%;
+}
+img.no_border {
+    border: medium none !important;
+}
+ul.pagination li, ul.pagination li:hover {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    display: inline;
+    margin-left: 1px;
+    padding: 0;
+}
+ul.pagination a:link, ul.pagination a:visited {
+    background: url("./images/bg/15.png") repeat scroll 0 0 transparent;
+    display: inline-block;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+div.footer {
+    font-size: 12px;
+    margin-top: 40px;
+    padding: 15px 0;
+    text-align: center;
+}
+.gotop {
+    bottom: 15px;
+    color: #FFFFFF;
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    opacity: 0.3;
+    padding: 10px;
+    position: fixed;
+    right: 15px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms ease 0s;
+    z-index: 999;
+}
+.gotop:hover {
+    color: #EEEEEE;
+    opacity: 0.7;
+}
+.gotop.hidden {
+    display: none;
+    opacity: 0;
+}
+a.gotop {
+    text-decoration: none !important;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #1D1D1D;
+    font-family: Arial,Helvetica,sans-serif;
+    font-weight: bold;
+}
+h4.blue {
+    color: #0D4667;
+    font-family: 'OstrichSansBlack';
+    font-size: 28px;
+    margin-top: 20px;
+    text-shadow: 1px 1px 0 #84BBDB;
+}
+.one_half {
+    float: left;
+    width: 50%;
+}
+.one_third {
+    float: left;
+    width: 33.33%;
+}
+.one_fourth {
+    float: left;
+    width: 25%;
+}
+.one_half > .column_content, .one_third > .column_content, .one_fourth > .column_content, .one_half > div, .one_third > div, .one_fourth > div {
+    padding-right: 15px;
+}
+.last > .column_content, .last > div {
+    padding-right: 0;
+}
+.one_half.last > .column_content, .one_half.last > div {
+    padding-left: 15px;
+}
+.one_third.first > .column_content, .one_third.first > div {
+    padding-left: 0;
+    padding-right: 20px;
+}
+.one_third > .column_content, .one_third > div {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.one_third.last > .column_content, .one_third.last > div {
+    padding-left: 20px;
+    padding-right: 0;
+}
+.column_content {
+    margin-top: 20px;
+}
+.column_content p {
+    margin-left: 68px;
+}
+.column_content h4 {
+    color: #0D4667;
+    font-family: 'OstrichSansBlack';
+    font-size: 28px;
+    text-shadow: 1px 1px 0 #84BBDB;
+}
+.first {
+    clear: left;
+}
+.last {
+    clear: right;
+}
+.left {
+    float: left;
+}
+.clear {
+    clear: both;
+}
+.space {
+    clear: both;
+    display: block;
+    float: left;
+    margin: 10px 0;
+}
+ul li {
+    background: url("../images/icons/bullet.jpg") no-repeat scroll left center transparent;
+    line-height: 2;
+    padding-left: 15px;
+}
+a:link, a:visited {
+    text-decoration: underline;
+}
+input, textarea, button {
+    background: url("./images/bg/15.png") repeat scroll 0 0 transparent;
+    clear: both;
+    float: left;
+    font-style: italic;
+    margin-bottom: 1px;
+    padding: 10px;
+}
+input {
+    width: 97.5%;
+}
+button {
+    cursor: pointer;
+    font-style: normal;
+    margin-right: -2px !important;
+}
+ol li {
+    list-style: decimal inside none;
+    padding: 5px 0;
+}
+blockquote {
+    border-left: 5px solid #7CB3D3;
+    font-style: italic;
+    margin: 20px;
+    padding: 10px;
+}
+div.page img {
+    border: 1px solid #73AACA;
+    max-width: 94%;
+    padding: 5px;
+}
+a#logo:hover, a.facebook:hover, a.twitter:hover, a.linkedin:hover, a.dribbble:hover, div.image_gallery img:hover {
+    opacity: ;
+}
+fieldset#contact_form button, .right {
+    float: right;
+}
+div.misc a, a:hover {
+    text-decoration: none;
+}
+div.blogpost a.readmore:hover, ul.pagination a:hover, ul.pagination a.active_page {
+    background: url("./images/bg/50.png") repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+}
+ol.comments li.comment a.reply:hover, div.tab ul.tab_menu li:hover, div.tab ul.tab_menu li.active {
+    background: none repeat scroll 0 0 #8F8F8F;
+    color: #FFFFFF;
+}
+.knob {
+    color: White !important;
+    font-size: 25px !important;
+    text-shadow: 1px 1px 0 #0D4667;
+}
+.clearfix {
+    clear: both;
+    float: none;
+}
+.prev {
+    margin-left: -5px;
+    margin-top: 20px;
+    position: absolute;
+}
+.next {
+    margin-left: 680px;
+    margin-top: 20px;
+    position: absolute;
+}
+.button {
+    background-color: #0D4667;
+    border-radius: 0.2em 0.2em 0.2em 0.2em;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    margin: 0;
+    outline: medium none;
+    overflow: visible;
+    padding: 0.5em 1em;
+    position: relative;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.button:hover, .button:focus, .button:active {
+    background-color: #35779D;
+    border-color: #3072B3;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.button:active, .button.active {
+    background-color: #12415C;
+    color: #FFFFFF;
+}
+.button::-moz-focus-inner {
+    border: 0 none;
+    padding: 0;
+}
+ul.sublist li {
+    float: left;
+    width: 140px;
+}
+ul.sublist li {
+    background: url("../images/ico-arrow.gif") no-repeat scroll 0 10px transparent;
+    font-size: 12px;
+}
+ul.sublist li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+ul.sublist li a:hover {
+    color: #002B44;
+}
+.grid {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #4B88AD -moz-use-text-color -moz-use-text-color #4B88AD;
+    border-image: none;
+    border-style: solid none none solid;
+    border-width: 1px medium medium 1px;
+    overflow: hidden;
+}
+.grid li {
+    -moz-box-sizing: border-box;
+    border-bottom: 1px solid #4B88AD;
+    border-right: 1px solid #4B88AD;
+    float: left;
+    overflow: hidden;
+    padding-left: 10px !important;
+    position: relative;
+    transition: all 0.3s ease-in-out 0s;
+    width: 25%;
+}
+.ie7 .grid li {
+    padding-left: 10px !important;
+    width: 19.9%;
+}
+.grid li a {
+    display: block;
+}
+.grid img {
+    border: 0 none !important;
+    display: block;
+    height: auto;
+    opacity: 0.65;
+    transition: all 0.3s ease-in-out 0s;
+    width: 100%;
+}
+.grid li:hover img {
+    opacity: 1;
+}
+#clients li:hover .original_img, .ie7 #clients li:hover a img, .ie8 #clients li:hover a img {
+    opacity: 1;
+}
+#clients li:hover .grayscale_img {
+    opacity: 0;
+}
+#clients .westfield:hover, #clients .westfield.active {
+    background: none repeat scroll 0 0 #D9001F;
+}
+#clients .smuin:hover, #clients .smuin.active {
+    background: none repeat scroll 0 0 #2A2333;
+}
+#clients .cytosport:hover, #clients .cytosport.active {
+    background: none repeat scroll 0 0 #292C33;
+}
+#clients .toyota:hover, #clients .toyota.active {
+    background: none repeat scroll 0 0 #F60031;
+}
+#clients .lands_end:hover, #clients .lands_end.active {
+    background: none repeat scroll 0 0 #1E1D3C;
+}
+#clients .microsoft:hover, #clients .microsoft.active {
+    background: none repeat scroll 0 0 #0079B0;
+}
+#clients .a_e:hover, #clients .a_e.active {
+    background: none repeat scroll 0 0 #451E53;
+}
+#clients .skittles:hover, #clients .skittles.active {
+    background: none repeat scroll 0 0 #D9001F;
+}
+#clients .juicy_fruit:hover, #clients .juicy_fruit.active {
+    background: none repeat scroll 0 0 #FDBB00;
+}
+#clients .ge:hover, #clients .ge.active {
+    background: none repeat scroll 0 0 #0977B4;
+}
+#clients .glad:hover, #clients .glad.active {
+    background: none repeat scroll 0 0 #F6A200;
+}
+#clients .altoids:hover, #clients .altoids.active {
+    background: none repeat scroll 0 0 #A7000A;
+}
+#clients .absolut:hover, #clients .absolut.active {
+    background: none repeat scroll 0 0 #919191;
+}
+#clients .facebook:hover, #clients .facebook.active {
+    background: none repeat scroll 0 0 #44559B;
+}
+#clients .jameson:hover, #clients .jameson.active {
+    background: none repeat scroll 0 0 #003E25;
+}
+#clients .toyota:hover, #clients .toyota.active {
+    background: none repeat scroll 0 0 #F60031;
+}
+#clients .orbit:hover, #clients .orbit.active {
+    background: none repeat scroll 0 0 #95D2EF;
+}
+#clients .zynga:hover, #clients .zynga.active {
+    background: none repeat scroll 0 0 #A9011B;
+}
+#clients .nike:hover, #clients .nike.active {
+    background: none repeat scroll 0 0 #868686;
+}
+#clients .adidas:hover, #clients .adidas.active {
+    background: none repeat scroll 0 0 #395CD4;
+}
+#clients .campaign:hover {
+    background: none repeat scroll 0 0 transparent;
+}
+.flex-control-nav {
+    display: none;
+}
+.page_content > p {
+    color: #434141;
+    font-family: 'Helvetica Neue';
+    font-size: 14px;
+    font-style: italic;
+    letter-spacing: 0;
+    line-height: 22px;
+    margin: 0 auto 23px;
+    text-align: justify;
+    width: 87%;
+}
+h2 {
+    font-family: 'pacificoregular';
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    margin-top: -10px;
+    text-align: center;
+}
+#about, #about2 {
+    background: none repeat scroll 0 0 #D21C3F;
+    color: #FFFFFF !important;
+    margin-bottom: 30px;
+    margin-left: -10px;
+    margin-top: -10px;
+    padding: 10px;
+    width: 100%;
+}
+#about .page_content > p, #about2 .page_content > p {
+    color: #FFFFFF;
+    margin-bottom: 0;
+    padding: 10px 0;
+}
+
+div.page {
+    margin-bottom: 30px !important;
+}
+
+h4 {
+    color: #444444;
+    font-family: 'claire_handbold';
+    font-size: 17px !important;
+    font-weight: normal;
+    line-height: 30px !important;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: center;
+}
